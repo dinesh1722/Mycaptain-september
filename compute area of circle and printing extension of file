@@ -1,0 +1,11 @@
+"""write a python program which accepts the radius of a circle from user and compues area"""
+import math
+radius=float(input("input the radius of the circle:"))
+area=(math.pi)*(radius)**2
+print("the area of the circle with raidus" + str(radius) + "is:",area)
+
+
+"""write a python program to accept a filenmae from user and print the extension of that"""
+filename = input("Input the Filename: ")
+file_extension = filename.split(".")
+print ("The extension of the file is : " + repr(file_extension[-1]))
