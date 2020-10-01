@@ -1,4 +1,6 @@
-n=int(input("enter n value:"))  """first n number of fibonacci numbers"""
+"""first n number of fibonacci numbers"""
+
+n=int(input("enter n value:"))  
 a=0
 b=1
 print(a)
